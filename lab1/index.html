@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Details</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file for styling -->
+    <script src="script.js" defer></script> <!-- Link to external JavaScript file, deferred for better loading -->
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub User Details</h1>
+        <form id="githubForm">
+            <!-- Form for submitting GitHub username -->
+            <label for="username">GitHub Username:</label>
+            <input type="text" id="username" required> <!-- Input field for GitHub username, required for form validation -->
+            <button type="submit">Get Details</button> <!-- Button to submit the form and fetch user details -->
+        </form>
+    </div>
+
+    <div id="details"></div> <!-- Placeholder for displaying fetched user details -->
+</body>
+</html>
