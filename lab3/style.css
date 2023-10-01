@@ -1,0 +1,14 @@
+/* Center-align the entire content */
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the search form */
+#githubForm {
+    max-width: 300px;
+    text-align: center;
+}
